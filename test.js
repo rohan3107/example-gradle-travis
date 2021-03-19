@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
-var preTax = parseInt(req.body.preTax);
-var afterTax = JSON.parse(someJson);
+var preTax = parseInt(req.body.preTaxes);
+var afterTax = JSON.parse(someJSON);
