@@ -6,3 +6,4 @@ bcrypt.hash(yourPassword, saltRounds, (err, hash) => {
 
 var preTax = parseInt(req.body.preTaxes);
 var afterTax = JSON.parse(someJSON);
+var url = "http://v.t.sina.com.cn/share/share.php?title=" + encodeURIComponent(myoptions.title);
